@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 56px;
+  height: 56px;
+  /* border: 2px solid black; */
+  background-image: url(./images/Ellipse\ 39.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.box span {
+  color: #86BC42;
+}
+
+
+  
+

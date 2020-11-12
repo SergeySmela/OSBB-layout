@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 293px;
+height: 21px;
+margin-bottom: 30px;
+}
+
+
+.link {
+    display: inline-block;
+    border-radius: 50%;
+    width: 6px;
+height: 6px;
+background: #6E788D;
+transform: rotate(-180deg);
+}
+
+.link-active {
+    background: none;
+    width: 21px;
+height: 21px;
+border: 1px solid #6E788D;
+box-sizing: border-box;
+transform: rotate(-180deg);
+}
